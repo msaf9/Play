@@ -9,17 +9,12 @@
     <title>Play</title>
 </head>
 
-<body>
+<body onLoad="view()">
     <h1>Test</h1>
     <div id="test"></div>
-    <script>
-        fetch("play.json")
-            .then(response => response.json())
-            .then(data => {
-                console.log(data)
-                document.querySelector("#test").innerHTML = data.questions.question
-            })
-    </script>
+    <div id="question">
+        <p></p>
+    </div>
 </body>
 
 </html>
