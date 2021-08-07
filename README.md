@@ -1,10 +1,10 @@
 # Play
 
-## Markup languages
+#### Markup languages
 - HTML5
 
-## Scripting languages
+#### Scripting languages
 - JavaScript
 
-## Data format
+#### Data format
 - JSON
