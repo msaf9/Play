@@ -1,23 +1,19 @@
-{
-    "questions": [{
-
-            "question": "What is the capital of India?",
-            "answers": {
-                "A": "New Delhi",
-                "B": "Mumbai",
-                "C": "Kolkata",
-                "D": "Bengaluru"
-            }
-        },
-        {
-            "question": "What is the capital of Australia?",
-            "answers": {
-                "A": "Canberra",
-                "B": "Sydney",
-                "C": "Alice Spring",
-                "D": "Melbourne"
-            }
+[{
+        "question": "What is the capital of India?",
+        "answers": {
+            "A": "New Delhi",
+            "B": "Mumbai",
+            "C": "Kolkata",
+            "D": "Bengaluru"
         }
-    ]
-
-}
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "answers": {
+            "A": "Canberra",
+            "B": "Sydney",
+            "C": "Alice Spring",
+            "D": "Melbourne"
+        }
+    }
+]
