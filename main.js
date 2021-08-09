@@ -15,7 +15,11 @@ function view() {
         console.log(data);
         for (var i = 0; i < data.length; i++) {
             var div = document.createElement("div");
-            div.innerHTML = (i + 1) + '. ' + data[i].question + ' ' + data[i].answers.A + ' ' + data[i].answers.B + ' ' + data[i].answers.C + ' ' + data[i].answers.D;
+            div.innerHTML = (i + 1) + '. ' + data[i].question + ' ' +
+                "<br />" + data[i].answers.A +
+                "<br />" + data[i].answers.B +
+                "<br />" + data[i].answers.C +
+                "<br />" + data[i].answers.D;
             mainContainer.appendChild(div);
         }
     }
