@@ -15,5 +15,14 @@
             "C": "Alice Spring",
             "D": "Melbourne"
         }
+    },
+    {
+        "question": "What is the capital of USA?",
+        "answers": {
+            "A": "New York City",
+            "B": "Dallas",
+            "C": "Washington DC",
+            "D": "Atlanta"
+        }
     }
 ]
