@@ -15,12 +15,17 @@ function view() {
         console.log(data);
         for (var i = 0; i < data.length; i++) {
             var div = document.createElement("div");
-            div.innerHTML = (i + 1) + '. ' + data[i].question + ' ' +
-                "<br />" + data[i].answers.A +
+            var div1 = document.createElement("div");
+            var div2 = document.createElement("div");
+            div.innerHTML = (i + 1) + '. ' + data[i].question;
+            div1.innerHTML = data[i].answers.A +
                 "<br />" + data[i].answers.B +
                 "<br />" + data[i].answers.C +
                 "<br />" + data[i].answers.D;
+            div2.innerHTML = "<br />"
             mainContainer.appendChild(div);
+            mainContainer.appendChild(div1);
+            mainContainer.appendChild(div2);
         }
     }
 }
